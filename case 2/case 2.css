@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    
+}
+.box{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 10px;
+    padding: 10px 20px;
+}
+section{
+    position: relative;
+    margin: auto;
+    width: 570px;
+}
+#val7{
+    background-color: black;
+}
+#val8{
+    background-color: black;
+}
+#val6{
+    position: absolute;
+    right: 0;
+}
+.btn{
+    position: relative;
+    top: 66px;
+}
+.start{
+    background-color: lawngreen;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+.stop{
+    background-color: red;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+.start:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid lawngreen;
+}
+.stop:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid red;
+}
